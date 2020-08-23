@@ -1,6 +1,7 @@
 /* jshint esversion: 6 */
 /* jshint esversion: 8 */
 
+
 const imageContainer = document.getElementById('image-container');
 const loader = document.getElementById('loader');
 
@@ -11,7 +12,7 @@ let photosArray = [];
 let initialLoad = true;
 
 // Unsplash API
-const apiKey = 'd4cCsbzljWxVPYlGekOKeuM5M0IRAsiJyviIQ8-1Zt8';
+const apiKey = API_KEY;
 
 let count = 5;
 let apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
