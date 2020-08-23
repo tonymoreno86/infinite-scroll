@@ -1,6 +1,5 @@
 /* jshint esversion: 6 */
 /* jshint esversion: 8 */
-require('dotenv').config();
 
 const imageContainer = document.getElementById('image-container');
 const loader = document.getElementById('loader');
@@ -14,7 +13,7 @@ let photosArray = [];
 let initialLoad = true;
 
 // Unsplash API
-const apiKey = process.env.UNSPLASH_API_KEY;
+const apiKey = 'd4cCsbzljWxVPYlGekOKeuM5M0IRAsiJyviIQ8-1Zt8';
 
 let count = 5;
 let apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
