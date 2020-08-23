@@ -1,6 +1,6 @@
 /* jshint esversion: 6 */
 /* jshint esversion: 8 */
-import 'config.js';
+import 'config';
 
 const imageContainer = document.getElementById('image-container');
 const loader = document.getElementById('loader');
